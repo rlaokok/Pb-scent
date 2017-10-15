@@ -50,7 +50,7 @@ void loop()                                      // 무한 루프
       g = number >> 8 & 0xff;
       b = number & 0xff;
   
-      // 입력된 데이터를 12개의 LED에 모두 같은색으로 출력
+      // 입력된 데이터를 6개의 LED에 모두 같은색으로 출력
       for (i = 0; i < NUMPIXELS; i++) {
         pixels.setPixelColor(i, pixels.Color(r, g, b));
         pixels.show();
