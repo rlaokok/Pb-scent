@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(10, 11); // RX, TX
 #include "Myheader.h"
-// jh 수정
+
 void control_BT_color();
 void control_gyro_color();
 void sensing_gyro();
@@ -10,7 +10,7 @@ int iGyro_flag = 0;
 int iBT_Flag = 0;
 int iFlag = 0;
 
-// jh 수정
+
 
 int save_iLedStatus = 0;
 const int GYRO = 1;
@@ -18,7 +18,7 @@ const int BT = 2;
 int sequence = 1;
 
 // Init -----------------------------------------------------------------------------
-void setup()                                     // 초기화
+void setup()                                     
 {
     setup_Init();
     sensing_gyro();
