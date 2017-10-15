@@ -1,9 +1,3 @@
-/*큐브라이트 : 6면의 차이를 통해 색상을 따로 제어 할 수 있도록 하는 라이트
-  6면 구성 + 블루투스 스피커 + 컬러피커 기능
-
-// 자동창문 플레그 보고 구현해보기
-
-*/
 #include <SoftwareSerial.h>
 SoftwareSerial mySerial(10, 11); // RX, TX
 #include "Myheader.h"
